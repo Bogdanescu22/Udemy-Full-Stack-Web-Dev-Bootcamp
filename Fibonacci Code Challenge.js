@@ -11,7 +11,7 @@ function fibonacciGenerator(n) {
     }
 
     for (var i = 2; i < n; i++) {
-        // Add the sum of the last two numbers in the sequence
+        
         var nextNumber = fibonacciSequence[i - 1] + fibonacciSequence[i - 2];
         fibonacciSequence.push(nextNumber);
     }
